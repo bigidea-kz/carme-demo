@@ -2,7 +2,7 @@
 
 import { useScrollTop } from "@/hooks/useScrollTop";
 import { cn } from "@/lib/utils";
-import { Bookmark, Heart, Menu, User } from "lucide-react";
+import { Heart, Menu, User } from "lucide-react";
 
 const Header = () => {
     const scrolled = useScrollTop();
@@ -20,9 +20,9 @@ const Header = () => {
 
                     <div className="flex justify-end md:justify-between grow">
                         <div className="hidden md:flex items-center gap-8">
-                            <a className="text-sky-950 font-medium" href="/">автомобили</a>
-                            <a className="text-sky-950 font-medium" href="/">о нас</a>
-                            <a className="text-sky-950 font-medium" href="/">условия</a>
+                            <p className="text-sky-950 font-medium">автомобили</p>
+                            <p className="text-sky-950 font-medium">о нас</p>
+                            <p className="text-sky-950 font-medium">условия</p>
                         </div>
 
                         <div className="flex items-center gap-4 md:gap-8">

@@ -1,4 +1,4 @@
-import { ArrowRight, BookmarkPlus, Heart } from "lucide-react";
+import { ArrowRight, Heart } from "lucide-react";
 import { Button } from "../ui";
 import Image from "next/image";
 import { cars } from "@/constants";

@@ -1,4 +1,4 @@
-import { CircleChevronRight, ChevronRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 
 export const LeaveRequest = () => {
     return (
