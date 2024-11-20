@@ -1,4 +1,4 @@
-import { ReactLenis, useLenis } from 'lenis/react';
+import { ReactLenis } from 'lenis/react';
 import { AboutUs, Catalog, Hero, HowItWorks, LeaveRequest, Promo } from "@/components/shared";
 
 const HomePage = () => {
