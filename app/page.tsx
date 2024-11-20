@@ -1,15 +1,18 @@
+import { ReactLenis, useLenis } from 'lenis/react';
 import { AboutUs, Catalog, Hero, HowItWorks, LeaveRequest, Promo } from "@/components/shared";
 
 const HomePage = () => {
     return (
-        <>
-            <Hero />
-            <Catalog />
-            <AboutUs />
-            <HowItWorks />
-            <Promo />
-            <LeaveRequest />
-        </>
+        <ReactLenis root>
+            <>
+                <Hero />
+                <Catalog />
+                <AboutUs />
+                <HowItWorks />
+                <Promo />
+                <LeaveRequest />
+            </>
+        </ReactLenis>
     );
 }
 
