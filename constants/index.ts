@@ -1,0 +1,43 @@
+export const cars = [
+    {
+        id: 0,
+        model: "Geely Emgrand",
+        body: "седан",
+        equipment: "flagship",
+        commission: "1 852 000 Т",
+        term: "37 месяцев",
+        pay: "420 000 Т",
+        image: "/card-emgrand.png",
+    },
+    {
+        id: 1,
+        model: "Geely Coolray",
+        body: "кроссовер",
+        equipment: "flagship",
+        commission: "2 281 000 Т",
+        term: "37 месяцев",
+        pay: "552 805 Т",
+        image: "/card-coolray.png",
+    },
+    {
+        id: 2,
+        model: "Geely Atlas",
+        body: "кроссовер",
+        equipment: "flagship",
+        commission: "2 518 000 Т",
+        term: "37 месяцев",
+        pay: "673 528 Т",
+        image: "/card-atlas.png",
+    },
+    {
+        id: 3,
+        model: "Geely Monjaro",
+        body: "кроссовер",
+        equipment: "premium",
+        commission: "2 912 000 Т",
+        term: "37 месяцев",
+        pay: "873 513 Т",
+        image: "/card-monjaro.png",
+    },
+]
+
